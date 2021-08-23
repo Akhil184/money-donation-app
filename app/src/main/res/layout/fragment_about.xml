@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".setting">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="147dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="252dp"
+        android:text="Dear Friends,"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="162dp"
+        android:text="About Us"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="382dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="17dp"
+        android:text="The ubiquitous presence of Natives of Dev Bhoomi Uttarakhand in all walks of life, particularly on positions that matter, be it Government or Private, has proved beyond doubt that they can excel in every walk of life. Having roots in rich legacy of saints and soldiers, the Natives of Uttarakhand are profusely gifted with rich and positive personality traits like Hardwork, Integrity, Sincerity and superior levels of intelligence. These qualities together, if channelized effectively, have great potential for all round growth of Natives of Uttarakhand as well as Development of the Hill Regions of Uttarakhand, thereby contributing to Nation Building."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="57dp"
+        android:text="INTRODUCTION"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="403dp"
+        android:layout_height="224dp"
+        android:layout_marginBottom="36dp"
+        android:text="Friends, for years, I have been pondering over one thing – when the Natives of Uttarakhand are gifted with such wonderful qualities of head and heart, why we could not achieve higher levels of development and advancement. The root cause is easily identifiable. It is observed that in earlier times, natives of Uttarakhand used to go outside their villages for job or for studies. It is no denying the fact that in majority of the cases, those natives who migrated to other regions, be if for jo b or study, have prospered more. However, they used to remain firmly connected with their roots in the villages and after studies or job in the cities, they would come back in the later part of their lives and settle in their Native Village."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="16dp"
+        android:text="+91-9650047155"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="66dp"
+        android:text="info@ukdev.in"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_email_24" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="407dp"
+        android:layout_height="723dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/gg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_phone_in_talk_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

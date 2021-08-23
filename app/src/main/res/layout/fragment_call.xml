@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".call">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/bgHeader"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+
+    android:theme="@style/ToolbarTheme"
+    android:elevation="5dp" />
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/bgHeader"
+    android:layout_margin="20dp">
+    <RelativeLayout
+        android:id="@+id/rlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="50dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Automatic Deduct Contribution To The Trust"
+                    android:textSize="34sp"
+                    android:textStyle="bold|italic" />
+
+                <RadioGroup
+                    android:id="@+id/radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:checked="true">
+
+                    <RadioButton
+                        android:id="@+id/radioButton7"
+                        android:layout_width="358dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gg"
+                        android:text="Monthly Contribution"
+                        android:layout_marginTop="20dp"/>
+
+                    <RadioButton
+                        android:id="@+id/radioButton8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gg"
+                        android:text="Yearly Contribution"
+                        android:layout_marginTop="20dp"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:text="Manual Pay Contribution To The Trust"
+                    android:textSize="34sp"
+                    android:textStyle="bold|italic"
+                    android:layout_marginTop="30dp"/>
+
+
+                    <RadioButton
+                        android:id="@+id/radioButton74"
+                        android:layout_width="368dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gg"
+                        android:text="Pay Custom"
+                        android:layout_marginTop="30dp"/>
+
+                    <RadioButton
+                        android:id="@+id/radioButton86"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gg"
+                        android:text="Pay Through Packages"
+                        android:layout_marginTop="20dp"/>
+
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/contin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/gg"
+                    android:text="continue"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cv"
+            android:layout_alignLeft="@+id/cv"
+            android:layout_alignRight="@+id/cv"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="35dp"
+            android:elevation="10dp">
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>
